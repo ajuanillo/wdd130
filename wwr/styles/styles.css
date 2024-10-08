@@ -1,0 +1,16 @@
+:root {
+/*Color codes*/
+    --primary-color:#505033;
+    --secondary-color:#264969;
+    --accent1-color:#CFCFB4;
+    --accent2-color:#B4CDE4;
+/*Fonts*/
+    --heading-font:'Georgia';
+    --text-font:'Roboto';
+}
+h1,h2,h3 {
+    font-family: var(--heading-font), 'Times New Roman', Times, serif;
+}
+p {
+    font-family: var(--text-font),serif;
+}
