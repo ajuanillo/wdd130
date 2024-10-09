@@ -9,15 +9,31 @@
         --text-font:'Roboto';
     }
 /* Linked fonts */
-body {
+header {
+    font-family: Georgia, serif;
+    font-weight: 400;
+}
+main {
     font-family: 'Roboto', sans-serif; /* Default font */
+    font-weight: 400;
+    color: var(--accent2-color);
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+h1, h2, h3 {
+    font-family: Georgia, serif; /* Use Georgia as the primary font */
+    font-weight: 700; /* Set the font weight to bold */
 }
 
-h1, h2, h3 {
-    font-family: 'Afacad Flux', cursive; /* Heading font */
-}
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+    color: var(--primary-color);
+}
+a {
+    text-decoration: none; /* Removes underline */
 }
