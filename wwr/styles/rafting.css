@@ -1,10 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux&family=Roboto:wght@400;700&display=swap');
-
-/* Example styles using the imported fonts */
+:root {
+    /*Color codes*/
+        --primary-color:#505033;
+        --secondary-color:#264969;
+        --accent1-color:#CFCFB4;
+        --accent2-color:#B4CDE4;
+    /*Fonts*/
+        --heading-font:'Georgia';
+        --text-font:'Roboto';
+    }
+/* Linked fonts */
 body {
     font-family: 'Roboto', sans-serif; /* Default font */
 }
 
 h1, h2, h3 {
     font-family: 'Afacad Flux', cursive; /* Heading font */
+}
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
