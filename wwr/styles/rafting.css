@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux&family=Roboto:wght@400;700&display=swap');
+
+/* Example styles using the imported fonts */
+body {
+    font-family: 'Roboto', sans-serif; /* Default font */
+}
+
+h1, h2, h3 {
+    font-family: 'Afacad Flux', cursive; /* Heading font */
+}
