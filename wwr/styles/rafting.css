@@ -29,14 +29,24 @@ h1, h2, h3 {
 }
 
 footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
-    color: var(--primary-color);
+    display: flex;
+    justify-content: space-between; /* Aligns content to the edges */
+    align-items: center; /* Centers items vertically */
+    padding: 20px; /* Adds padding around the footer */
 }
+
+.Sociallinks {
+    display: flex; /* Displays icons in a horizontal line */
+    justify-content: flex-end; /* Aligns icons to the right */
+}
+
+.Sociallinks a {
+    margin-left: 15px; /* Spacing between icons */
+}
+
 .Sociallinks img {
-    width: 30px; /* Adjust size as needed */
-    margin: 0 10px; /* Spacing between icons */
+    width: 30px; /* Adjust icon size as needed */
+    height: auto; /* Maintain aspect ratio */
 }
 a {
     text-decoration: none; /* Removes underline */
