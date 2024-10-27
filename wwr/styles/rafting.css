@@ -27,6 +27,12 @@ header {
 h1 {
 	font-size: 2rem;
 	font-family: Georgia, serif; /* Use Georgia as the primary font */
+    text-align: center;
+}
+h1, h2, h3 {
+    font-family: Georgia, serif; /* Use Georgia as the primary font */
+    font-weight: 700; /* Set the font weight to bold */
+    text-align: center;
 }
 
 nav {
@@ -64,10 +70,6 @@ main {
     display: block;
     width: 100%;
     height: auto;
-}
-h1, h2, h3 {
-    font-family: Georgia, serif; /* Use Georgia as the primary font */
-    font-weight: 700; /* Set the font weight to bold */
 }
 
 footer {
