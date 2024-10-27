@@ -34,6 +34,10 @@ footer {
     text-align: center;
     color: var(--primary-color);
 }
+.Sociallinks img {
+    width: 30px; /* Adjust size as needed */
+    margin: 0 10px; /* Spacing between icons */
+}
 a {
     text-decoration: none; /* Removes underline */
 }
