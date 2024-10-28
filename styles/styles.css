@@ -5,7 +5,7 @@
 }
 
 nav {
-    background-color: steelblue;
+    background-color: darkblue;
     padding: 10px;
 }
 nav a {
@@ -14,20 +14,21 @@ nav a {
     padding: 20px;
 }
 h1 {
-    color: steelblue;
+    color: darkblue;
 }
 img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 p {
-    padding: 0;
+    padding: 10px;
 }
 main {
     max-width: 840px;
+    background-color:  rgb(222, 217, 217);
 }
 aside {
     width: 20rem;
