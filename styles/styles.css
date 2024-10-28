@@ -1,3 +1,14 @@
+:root {
+    /*Color codes*/
+        --primary-color:#505033;
+        --secondary-color:#264969;
+        --accent1-color:#CFCFB4;
+        --accent2-color:#B4CDE4;
+    /*Fonts*/
+        --heading-font:'Georgia';
+        --text-font:'Roboto';
+ }
+
 * {
     margin: 0;
     padding: 0;
@@ -30,6 +41,10 @@ main {
     max-width: 840px;
     background-color:  rgb(222, 217, 217);
 }
+main img {
+    width: 150px;
+    height: auto;
+}
 aside {
     width: 20rem;
     margin: 1rem;
@@ -43,12 +58,10 @@ aside img {
     width: 200px;
     height: auto;
 }
-main img {
-    width: 150px;
-    height: auto;
-}
+
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
 }
+/* Class Selectors */
