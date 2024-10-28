@@ -10,12 +10,16 @@
     }
 /* Linked fonts */
 header {
-	margin: 1rem auto;
+    font-family: var(--heading-font);
+    margin: 1rem auto;
 	display: grid;
 	grid-template-columns: 120px 1fr 2fr;
 	align-items: center;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid var(--primary-color);
 	max-width: 1000px;
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+
 }
 
 .logo img {
@@ -38,7 +42,9 @@ h1, h2, h3 {
 nav {
 	text-align: right;
 }
-
+article img {
+    float: right;
+}
 .navigation {
 	display: flex;
 	list-style: none;
@@ -50,19 +56,18 @@ nav {
 
 .navigation a {
 	display: block;
-	color: navy;
+	color: var(--accent2-color);
 	padding: 20px;
 	text-decoration: none;
 }
 
 .navigation a:hover {
-	color: tomato;
+	color: var(--accent1-color);
 	font-weight: 700;
 	text-decoration: underline;
 }
-
 main {
-    font-family: 'Roboto', sans-serif; /* Default font */
+    font-family: var(--text-font); /* Default font */
     font-weight: 400;
     color: var(--accent2-color);
 }
@@ -104,8 +109,8 @@ figure {
     max-width: 220px;
     margin: auto;
   }
-  
-  img {
+
+  article img {
     max-width: 220px;
     max-height: 150px;
   }
@@ -113,7 +118,7 @@ figure {
   figcaption {
     background-color: #222;
     color: #fff;
-    font: italic smaller sans-serif;
+    font: var(--text-font);
     padding: 3px;
     text-align: center;
   }
