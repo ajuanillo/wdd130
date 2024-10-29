@@ -10,16 +10,15 @@
     }
 /* Linked fonts */
 header {
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
     font-family: var(--heading-font);
     margin: 1rem auto;
-	display: grid;
-	grid-template-columns: 120px 1fr 2fr;
 	align-items: center;
 	border-bottom: 1px solid var(--primary-color);
-	max-width: 1000px;
+	max-width: auto;
     background-color: var(--secondary-color);
     color: var(--accent2-color);
-
 }
 
 .logo img {
@@ -33,7 +32,7 @@ h1 {
 	font-family: Georgia, serif; /* Use Georgia as the primary font */
     text-align: center;
 }
-h1, h2, h3 {
+h2, h3 {
     font-family: Georgia, serif; /* Use Georgia as the primary font */
     font-weight: 700; /* Set the font weight to bold */
     text-align: center;
@@ -42,9 +41,7 @@ h1, h2, h3 {
 nav {
 	text-align: right;
 }
-article img {
-    float: right;
-}
+
 .navigation {
 	display: flex;
 	list-style: none;
@@ -71,12 +68,20 @@ main {
     font-weight: 400;
     color: var(--accent2-color);
 }
+.hero {
+    display: grid;
+}
+.hero article {
+    grid-column: 1;
+    grid-row: 1;
+}
 .hero img {
-    display: block;
     width: 100%;
-    height: auto;
 }
 
+.hero article img {
+    width: 250px;
+}
 footer {
     display: flex;
     justify-content: space-between; /* Aligns content to the edges */
@@ -100,7 +105,6 @@ footer {
 a {
     text-decoration: none; /* Removes underline */
 }
-
 figure {
     border: thin #c0c0c0 solid;
     display: flex;
@@ -109,13 +113,7 @@ figure {
     max-width: 220px;
     margin: auto;
   }
-
-  article img {
-    max-width: 220px;
-    max-height: 150px;
-  }
-  
-  figcaption {
+figcaption {
     background-color: #222;
     color: #fff;
     font: var(--text-font);
