@@ -65,23 +65,31 @@ nav {
 }
 main {
     font-family: var(--text-font); /* Default font */
-    font-weight: 400;
+    font-weight: 800;
     color: var(--accent2-color);
 }
 .hero {
     display: grid;
-}
-.hero article {
-    grid-column: 1;
-    grid-row: 1;
+    position: relative;
 }
 .hero img {
     width: 100%;
 }
-
-.hero article img {
+.hero h1 {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+}
+.article-section {
+    left: 50%;
+    bottom: 50%;
+    display: flex;
+    position: absolute;
+}
+.article-section img {
     width: 250px;
 }
+
 footer {
     display: flex;
     justify-content: space-between; /* Aligns content to the edges */
