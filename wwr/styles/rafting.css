@@ -129,7 +129,6 @@ figure {
     border: thin #c0c0c0 solid;
     display: flex;
     grid-template-columns: 3fr;
-    justify-content: center;
     padding: 5px;
     margin: auto;
 }
