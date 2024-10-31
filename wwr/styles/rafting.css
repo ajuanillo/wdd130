@@ -143,7 +143,7 @@ figure img{
 figcaption {
     background-color: #222;
     color: #fff;
-    font: var(--text-font);
+    font: italic;
     padding: 3px;
     text-align: center;
   }
