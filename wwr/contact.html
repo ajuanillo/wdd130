@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="Rafting Company Contact us">
+        <meta name="author" content="Alfredo Juanillo Mamani">
+        <title>Rafting Adventures Contact Us</title>
+        <!--Fuentes-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/rafting.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="Company logo" width="100">
+            <h1>Rafting Adventures</h1>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">Root</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+
+            </nav>
+        </header>
+        <main>
+            <h1>Company Information</h1>
+            <section>
+                <h2>Please give us your interest</h2>
+                <div>
+                <form>
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <!-- formm elements will go here-->
+                         <div class="form-item column2">
+                            <label for="fullnanme">Full Name:</label>
+                            <input type="text" id="fullname" name="fullname">
+                         </div>
+                         <div class="form-item column2">
+                            <label for="usermail">Email:</label>
+                            <input type="email" id="usermail" name="usermail">
+                         </div>
+                         <div class="form-item column2">
+                            <label for="general">General Inquiry</label>
+                            <input type="radio" id="general" name="inquiry" value="general">
+                         </div>
+                         <div class="form-item column2">
+                            <label for="reservation">Reservation Question</label>
+                            <input type="radio" id="reservation" name="inquiry" value="reservation">
+                         </div>
+                         <div class="form-item column2">
+                            <label for="suggestion">Website Suggestion</label>
+                            <input type="radio" id="suggestion" name="inquiry" value="suggestion">
+                         </div>
+                         <div class="form-item">
+                            <label for="feedback">Message:</label>
+                            <textarea id="feedback" name="feedback" rows="4" placeholder="Message"></textarea>   
+                        </div>
+                         <div class="form-item column2">
+                            <label for="suscribe">Please subscribe me to the monthly newsletter</label>
+                            <input type="checkbox" id="suscribe" name="suscribe">
+                        </div>
+                    </fieldset>
+                    <button type="submit">Submit Poll</button>
+                </form>
+                </div>
+            </section>
+            <section>
+                <h2>Contact Details</h2>
+                <address>
+                    <strong>Rafting Company</strong><br>
+                    San Martin SN
+                    Tacna City,<br>
+                    Phone: <a href="tel:+51952875190">+51 952875190</a><br>
+                    Email: <a href="mailto:info@capsule.com">info@capsule.com</a>
+                </address>
+
+                <h2>Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5200.601456827279!2d-70.25164641837445!3d-18.01367487673814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2spe!4v1730409309455!5m2!1ses!2spe" 
+                width="840" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Rafting Adventures | Alfredo Juanillo 📍 Tacna, Perú</p>
+            <nav class="Sociallinks">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.svg" alt="Facebook">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.svg" alt="Twitter">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.svg" alt="Instagram">
+                </a>
+            </nav>
+        </footer>
+    </body>
+</html>
