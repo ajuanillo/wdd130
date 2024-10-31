@@ -1,14 +1,18 @@
 :root {
     /*Color codes*/
-        --primary-color:#505033;
-        --secondary-color:#264969;
-        --accent1-color:#CFCFB4;
-        --accent2-color:#B4CDE4;
+        --primary-color:rgb(80, 80, 51);
+        --secondary-color:rgb(38, 73, 105);
+        --accent1-color:rgb(207, 207, 180);
+        --accent2-color:rgb(180, 205, 228);
     /*Fonts*/
         --heading-font:'Georgia';
         --text-font:'Roboto';
     }
 /* Linked fonts */
+* {
+    max-width: 840px;
+    margin: 0 auto 0;
+}
 header {
     display: grid;
     grid-template-columns: 120px 1fr 2fr;
@@ -16,7 +20,6 @@ header {
     margin: 1rem auto;
 	align-items: center;
 	border-bottom: 1px solid var(--primary-color);
-	max-width: auto;
     background-color: var(--secondary-color);
     color: var(--accent2-color);
 }
@@ -45,6 +48,7 @@ nav {
 .navigation {
 	display: flex;
 	list-style: none;
+    
 }
 
 .navigation li {
@@ -66,10 +70,9 @@ nav {
 main {
     font-family: var(--text-font); /* Default font */
     font-weight: 800;
-    color: var(--accent2-color);
+    color: var(--secondary-color);
 }
 .hero {
-    display: grid;
     position: relative;
 }
 .hero img {
@@ -78,16 +81,28 @@ main {
 .hero h1 {
     position: absolute;
     text-align: center;
-    left: 50%;
+    top: 10%;
+    color: #f7f7f7;
+    background-color: rgba(38, 73, 105,.5);
+    width: 100%;
 }
 .article-section {
-    left: 50%;
-    bottom: 50%;
+    top: 25%;
+    margin: 2%;
     display: flex;
+    grid-template-columns: 3fr 1fr;
+    flex-direction: row-reverse;
+    justify-content: center;
     position: absolute;
+    color: var(--secondary-color);
+    background-color: rgba(80, 80, 51,.7);
+    
 }
-.article-section img {
-    width: 250px;
+.article-section img,p {
+    width: auto;
+    margin: 5px;
+    color: var(--accent2-color);
+    
 }
 
 footer {
@@ -116,11 +131,15 @@ a {
 figure {
     border: thin #c0c0c0 solid;
     display: flex;
-    flex-flow: column;
+    grid-template-columns: 3fr;
+    justify-content: center;
     padding: 5px;
-    max-width: 220px;
     margin: auto;
-  }
+}
+figure img{
+    max-width: 150px;
+    max-height: 150px;
+}
 figcaption {
     background-color: #222;
     color: #fff;
