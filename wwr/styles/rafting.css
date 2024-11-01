@@ -98,11 +98,11 @@ main {
     width: auto;
     margin: 5px;
     color: var(--accent2-color);
-    
 }
 
 footer {
-    display: flex;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
     justify-content: center; /* Aligns content to the edges */
     align-items: center; /* Centers items vertically */
     padding: 20px; /* Adds padding around the footer */
